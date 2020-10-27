@@ -17,7 +17,7 @@ function setup() {
 }
 function draw() {
   rectMode(CENTER)
-  background(255);
+  background("white");
   Engine.update(engine);
   ball.display();
   ground.display();
